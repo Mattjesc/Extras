@@ -1,0 +1,1 @@
+just some basic python bank program. Not much to say, nothing impressive lol

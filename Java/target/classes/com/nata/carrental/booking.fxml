@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import java.lang.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" 
+    spacing="20.0" fx:id="bookingVBox"
+    fx:controller="com.nata.carrental.BookingController">
+    <Label text="Booking"/>
+    <TableView fx:id="tableView">
+        <columns>
+            <TableColumn fx:id="userColumn" text="User"/>
+            <TableColumn fx:id="carColumn" text="Car"/>
+            <TableColumn fx:id="stateColumn" text="State"/>
+            <TableColumn fx:id="startDateColumn" text="Start Date"/>
+            <TableColumn fx:id="endDateColumn" text="End Date"/>
+            <TableColumn fx:id="totalColumn" text="Total"/>
+            <TableColumn fx:id="actionsColumn" text="Action" />
+        </columns>
+    </TableView>
+    <HBox fx:id="formView" spacing="20.0">
+        <Label text="User" />
+        <ComboBox fx:id="userField" />
+        <Label text="Car"/>
+        <ComboBox fx:id="carField"/>
+        <Label text="Start Date"/>
+        <DatePicker fx:id="startDateField"/>
+        <Label text="End Date"/>
+        <DatePicker fx:id="endDateField"/>
+        <Button fx:id="createButton" onAction="#create" text="Create" />
+        <Button fx:id="writeButton" onAction="#write" text="Save" />
+        <Button fx:id="cancelEditButton" onAction="#cancelEdit" text="Cancel" />
+
+    </HBox>
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+</VBox>

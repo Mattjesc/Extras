@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import java.lang.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<MenuBar  xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1"  
+    fx:id="mainMenu" fx:controller="com.nata.carrental.MenuController">
+    <Menu text="Menu">
+        <MenuItem fx:id="carMenuItem" userData="car" text="Car" onAction="#changeRoot"/>
+        <MenuItem fx:id="bookingMenuItem" userData="booking" text="Booking" onAction="#changeRoot"/>
+    </Menu> 
+    <Menu fx:id="userMenu" text="user">
+        <MenuItem text="Logout" onAction="#logout" />
+    </Menu>
+</MenuBar>

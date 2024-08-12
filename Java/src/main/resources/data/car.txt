@@ -1,0 +1,6 @@
+id;name;image;price;available
+1;Tesla X;;10000;true
+2;Tesla S;;10000;true
+3;Tesla Cyber Truck;;10000;true
+4;Lamboghini Galardo;;10000;true
+5;Ionic;;10000;true

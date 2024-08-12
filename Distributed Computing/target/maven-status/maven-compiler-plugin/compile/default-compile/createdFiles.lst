@@ -1,0 +1,14 @@
+rmi\PayrollInfo.class
+rmi\PayrollInterface.class
+rmi\EmployeeRegistrationForm$1.class
+rmi\DatabaseTest.class
+rmi\EmployeeRegistrationForm.class
+rmi\EmployeeRegistrationForm$2.class
+com\mycompany\dcoms_draft\DCOMS_Draft.class
+rmi\PayrollClient.class
+rmi\EmployeeRegistrationForm$3.class
+rmi\ClientHandler.class
+rmi\Employee.class
+rmi\PayrollCalculator.class
+rmi\EmployeeRegistrationForm$4.class
+rmi\PayrollServer.class

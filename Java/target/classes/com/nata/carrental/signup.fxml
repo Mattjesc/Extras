@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import java.net.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox alignment="CENTER" spacing="20.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1"
+   fx:controller="com.nata.carrental.SignupController">
+    <children>
+      <Text text="Signup" GridPane.columnIndex="0" GridPane.rowIndex="0" GridPane.columnSpan="2" />
+      <GridPane 
+        xmlns:fx="http://javafx.com/fxml" alignment="center" hgap="10" vgap="10">
+        <padding><Insets top="25" right="25" bottom="10" left="25"/></padding>
+        
+        <Label text="Name:" GridPane.columnIndex="0" GridPane.rowIndex="1" />
+        <TextField fx:id="nameField" GridPane.columnIndex="1" GridPane.rowIndex="1" />         
+
+        <Label text="Username:" GridPane.columnIndex="0" GridPane.rowIndex="2" />
+        <TextField fx:id="usernameField" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+
+        <Label text="Password:" GridPane.columnIndex="0" GridPane.rowIndex="3" />
+        <PasswordField fx:id="passwordField" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+
+        <Label text="Retype Password:" GridPane.columnIndex="0" GridPane.rowIndex="4" />
+        <PasswordField fx:id="repasswordField" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+      </GridPane>
+      <VBox  alignment="center">
+        <Button fx:id="signupButton" text="Submit" onAction="#signup" />
+        <Hyperlink fx:id="loginButton" onAction="#login">Login</Hyperlink>
+      </VBox>
+    </children>
+    <padding>
+      <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+</VBox>
