@@ -1,5 +1,11 @@
 # Distributed Computing on Payroll System
 
+<img width="143" alt="image" src="https://github.com/user-attachments/assets/7882c0f5-6685-43b7-8c01-93f2ea250ccf">
+<img width="278" alt="image" src="https://github.com/user-attachments/assets/4a14d1e5-54ce-4405-ab21-87a38ef2296c">
+
+![image](https://github.com/user-attachments/assets/4ae3b259-b0d0-4f8b-a4f2-b71c98e99c6c)
+
+
 This project focuses on developing a distributed payroll system for BHEL Company, which currently faces inefficiencies with its manual payroll process. The proposed solution involves implementing a user-friendly, scalable payroll system using Java Remote Method Invocation (RMI) technology. This system will automate payroll calculations, employee management, and reporting, all within a secure, distributed computing environment.
 
 ## Key Features
