@@ -2,6 +2,10 @@
 
 Note: Code is broken as of now
 
+![image](https://github.com/user-attachments/assets/cfe31dcb-a092-4695-8df0-ddf6901bd6d0)
+![image](https://github.com/user-attachments/assets/d4b67498-1a74-4f97-ace7-6c24a97e31c3)
+
+
 This project focuses on the development of a Remote Controlled Miniaturized Radar using IoT technology. The radar is designed to simulate how real-life radar systems work by detecting incoming objects and measuring environmental conditions such as temperature and humidity. The project leverages hobbyist electronics and IoT cloud services for data storage and visualization.
 
 ## Introduction
