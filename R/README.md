@@ -1,4 +1,4 @@
-# Data Analysis and Visualization on House Rent Dataset
+# Comprehensive Data Analysis and Visualization on House Rent Dataset
 
 This project involves exploring, cleaning, manipulating, and visualizing a dataset related to accommodation options in various cities in India. The primary objective is to derive insights and analyze trends that can help understand the rental market better.
 
