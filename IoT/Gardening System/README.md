@@ -1,5 +1,10 @@
 # IoT-Based Smart Urban Gardening System with Real-Time Visualization Dashboard
 
+![image](https://github.com/user-attachments/assets/d713ba48-f1d3-45bf-a5b2-c2e848c4bfb5)
+![image](https://github.com/user-attachments/assets/0b8082ad-1d4a-4fa6-aab3-34ef02e1a53f)
+![image](https://github.com/user-attachments/assets/fd1e4b3a-ab3e-4f17-a710-39976e3deff0)
+![image](https://github.com/user-attachments/assets/0ccb92b0-514f-4a1e-a32f-b367a15b8417)
+
 This project involves the development of an IoT-based system for managing and monitoring gardens in urban environments, complete with a real-time visualization dashboard. The system is designed to balance sustainability and technological advancements, addressing the challenges of urbanization while promoting eco-friendly practices.
 
 ## Introduction
